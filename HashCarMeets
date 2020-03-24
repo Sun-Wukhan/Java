@@ -1,0 +1,22 @@
+import java.util.HashMap;
+public class Main {
+   
+    public static void main (String[]args){
+        HashMap <String, String> CarMeet = new HashMap <String, String>();
+        
+        CarMeet.put("Navid", "Lexus IS300");
+        CarMeet.put("Lunik", "HondaCivic");
+        CarMeet.put("Sharnid", "His Legs");
+        CarMeet.put("Harmohit", "Lexus RX300");
+        CarMeet.put("Ricky", " Toyota Corolla");
+       
+        System.out.println(CarMeet);
+        
+        CarMeet.remove("Sharnid");
+        System.out.println(CarMeet);
+       
+        System.out.println(CarMeet.size());
+       
+    }
+   
+}
