@@ -1,0 +1,110 @@
+import java.util.Scanner;
+ 
+public class Main
+{
+                public static void main(String[] args) {
+                                Scanner p1 = new Scanner(System.in);
+                                Main Exercise = new Main();
+                                Exercise.Statement1();
+                                Exercise.Statement2();
+                                Exercise.Statement3();
+                                Exercise.Statement4();
+                                Exercise.Statement5();
+                                Exercise.Statement6();
+                                Exercise.Statement7();
+                }
+               
+                public void Statement1(){
+                    int a = 35;
+               
+                if (a>0){
+                                    System.out.println("positive");
+                                } else {
+                                    System.out.println("negative");
+                                }
+                }
+               
+                public void Statement2() {
+                    System.out.println("Quadratic equation here");
+                }
+               
+                public void Statement3(){
+                    int a = 25;
+                    int b = 78;
+                    int c = 87;
+                    
+                    if (a>b)
+                        if (a>c) {
+                        System.out.println("This is the greatest number" + a);
+                        }
+                    if (b>a)
+                        if (b>c) {
+                        System.out.println("This is the greatest number" + b);
+                        }      
+                    if (c>a)
+                    if (c>b) {
+                    System.out.println("This is the greatest number " + c);
+                    }
+                       
+                    
+                }
+               
+                public void Statement4(){
+                    int a;
+                    a= 100;
+                   
+                    if (a>0)
+                        if (a<1) {
+                            System.out.println("positive");
+                        } else if (a>99) {
+                            System.out.println("huge");
+                        } else if (a<0) {
+                            System.out.println("negative");
+                        } else {
+                            System.out.println("Zero");
+                        }
+                }
+               
+                public void Statement5(){
+                     System.out.println("What day is it");
+                     Scanner p1 = new Scanner(System.in);
+                     int day = p1.nextInt();
+                     String dayName;
+                      switch (day) {
+            case 1: dayName = "Monday"; break;
+            case 2: dayName = "Tuesday"; break;
+            case 3: dayName = "Wednesday"; break;
+            case 4: dayName = "Thursday"; break;
+            case 5: dayName = "Friday"; break;
+            case 6: dayName = "Saturday"; break;
+            case 7: dayName = "Sunday"; break;
+            default:dayName = "Invalid day range";
+        }
+        System.out.println(dayName);
+                    
+                }
+               
+                public void Statement6(){
+                    Scanner p1 = new Scanner(System.in);
+                    double a;
+                    double b;
+                    System.out.println("Choose your first number ");
+                    a = p1.nextDouble();
+                    System.out.println("Choose your second number");
+                    b = p1.nextDouble();
+                    
+                    double c = a/1000;
+                    double d = b/1000;
+                   
+                    if (c==d) {
+                        System.out.println("These are the same");
+                    } else {
+                        System.out.println("They are not the same");
+                    }
+                }
+               
+                public void Statement7(){
+                  Scanner p1 = new Scanner(System.in);
+                }
+}
+ 
